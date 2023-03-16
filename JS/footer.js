@@ -1,3 +1,5 @@
+
+
 function getfooter() {
     document.write(`<hr>
     <p class="text-center">&copy; Copyright 2023. Website được thiết
