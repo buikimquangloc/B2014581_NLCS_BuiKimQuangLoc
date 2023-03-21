@@ -1,11 +1,13 @@
 
 
 function getfooter() {
-    document.write(`<hr>
+  document.write(`
+    <hr>
     <p class="text-center">&copy; Copyright 2023. Website được thiết
     kế
     bởi cá nhân Bùi Kim
-    Quang Lộc.</p>`)
+    Quang Lộc.</p>
+    `)
 
 }
 function getheader() {
