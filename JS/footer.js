@@ -19,12 +19,11 @@ function getheader() {
       <img src="/HTML/IMG/channels4_profile.jpg" class="img-fluid m-2"
         width="100" height="100" alt="">
       <div>
-        <header class="m-2 text-center">GIỚI THIỆU VỀ Y HỌC CỔ TRUYỀN </header>
-        <div class="">
+      <h2 class="m-2 text-center">GIỚI THIỆU VỀ Y HỌC CỔ TRUYỀN</h2>
+      <div class="">
           <ul class="nav nav-tabs col-12 justify-content-center ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page"
-                href="Trangchu.html">Home page</a>
+              <a class="nav-link" href="Trangchu.html">Home page</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Caclinhvuc.html">Các lĩnh vực</a>
