@@ -9,6 +9,7 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous">
+        <script src="../JS/js.js"></script>
     </head>
     <body>
         <div class="boder bg-light w-50 m-auto ">
@@ -16,40 +17,51 @@
                         ký</b>
                 </h4></div>
             <div class="m-5">
-                <form class="" action="">
+                <form class="" action="" onsubmit="return dangky(this);">
                     <div class="form-group">
                         <label for="">Họ tên:</label>
-                        <input type="text " class="form-control"
+                        <input type="text " id="name" name="name"
+                            class="form-control"
                             placeholder="Nhập vào họ tên">
                     </div>
                     <div class="form-group ">
                         <label for="email">Email:</label>
-                        <input type="email" class="form-control"
+                        <input type="email" id="email" name="email"
+                            class="form-control"
                             placeholder=" Nhập vào email">
                     </div>
                     <div class="form-group">
                         <label for="">Số điện thoại:</label>
-                        <input type="" class="form-control"
+                        <input type="" id="phone" name="phone"
+                            class="form-control"
                             placeholder="Nhập vào số điện thoại">
                     </div>
                     <div class="form-group">
                         <label for="pwd">Mật khẩu:</label>
-                        <input type="password" class="form-control"
+                        <input type="password" id="pw" name="pw"
+                            class="form-control"
                             placeholder="Cần nhập vào mật khẩu">
                     </div>
                     <div>
                         <label for="pwd">Nhập lại mật khẩu:</label>
-                        <input type="password" class="form-control"
+                        <input type="password" id="rpw" name="rpw"
+                            class="form-control"
                             placeholder="Nhập lại mật khẩu vừa nhập">
                     </div>
-                    <div class="form-check mt-2">
+                    <div class="form-check mt-2 d-flex justify-content-center">
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input"
                                 value="checkedValue" checked>
                             Ghi nhớ tôi
                         </label>
                     </div>
-                    <button type="submit" class="btn btn-primary mt-2">Đăng Ký</button>
+                    <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary mt-2 d-flex justify-content-center">Đăng
+                        Ký</button>
+                    </div>
+                    <p class="d-flex justify-content-center mt-2">Nếu bạn đã có tài
+                        khoản hãy &nbsp;<a
+                            href="../HTML/dangnhap.html"> Đăng nhập</a></p>
                 </form>
             </div>
             <br>

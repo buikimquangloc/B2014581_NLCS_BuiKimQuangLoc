@@ -45,6 +45,12 @@ function getheader() {
         </div>
       </div>
       </div>
+      <div class="d-flex justify-content-end">
+      <button class=" justify-content-end btn btn-success"><a
+          href="../HTML/dangnhap.html" class="text-light">Đăng nhập</a></button>
+      <button class=" justify-content-end btn btn-success"><a
+          href="../HTML/dangnhap.html" class="text-light">Đăng ký</a></button>
+    </div>
   </body>
     `)
 }
