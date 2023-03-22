@@ -46,11 +46,21 @@ function getheader() {
       </div>
       </div>
       <div class="d-flex justify-content-end">
-      <button class=" justify-content-end btn btn-success"><a
-          href="../HTML/dangnhap.html" class="text-light">Đăng nhập</a></button>
-      <button class=" justify-content-end btn btn-success"><a
-          href="../HTML/dangnhap.html" class="text-light">Đăng ký</a></button>
-    </div>
+      <div class="">
+        <form class="d-flex" role="search" onsubmit="return search(this)">
+          <input class="form-control me-2 bg-search " name="words" type="search"
+            placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary"> <i class="fa fa-search"> </i>
+          </button>
+        </div>
+
+        <div class="ml-4">
+          <button class="btn btn-success"><a
+              href="../HTML/dangnhap.html" class="text-light">Đăng nhập</a></button>
+          <button class="btn btn-success"><a
+              href="../HTML/dangnhap.html" class="text-light">Đăng ký</a></button>
+        </div>
+      </div>
   </body>
     `)
 }
